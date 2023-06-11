@@ -1,7 +1,7 @@
 <?php
-// Check if iconv is enabled
-if (extension_loaded('iconv')) {
-    echo 'iconv extension is enabled on this server.';
+// Check if JSON is enabled
+if (extension_loaded('json')) {
+    echo 'JSON extension is enabled on this server.';
 } else {
-    echo 'iconv extension is not enabled on this server.';
+    echo 'JSON extension is not enabled on this server.';
 }
