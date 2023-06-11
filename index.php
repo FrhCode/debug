@@ -1,7 +1,7 @@
 <?php
-// Check if mbstring is enabled
-if (extension_loaded('mbstring')) {
-    echo 'mbstring extension is enabled on this server.';
+// Check if mysqli is enabled
+if (extension_loaded('mysqli')) {
+    echo 'mysqli extension is enabled on this server.';
 } else {
-    echo 'mbstring extension is not enabled on this server.';
+    echo 'mysqli extension is not enabled on this server.';
 }
