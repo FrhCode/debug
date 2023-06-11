@@ -1,7 +1,7 @@
 <?php
-// Check if mysqlnd is enabled
-if (extension_loaded('mysqlnd')) {
-    echo 'mysqlnd extension is enabled on this server.';
+// Check if Tidy is enabled
+if (extension_loaded('tidy')) {
+    echo 'Tidy extension is enabled on this server.';
 } else {
-    echo 'mysqlnd extension is not enabled on this server.';
+    echo 'Tidy extension is not enabled on this server.';
 }
