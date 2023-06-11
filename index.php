@@ -1,7 +1,7 @@
 <?php
-// Check if Fileinfo is enabled
-if (function_exists('finfo_open')) {
-    echo 'Fileinfo extension is enabled on this server.';
+// Check if GD is enabled
+if (extension_loaded('gd') && function_exists('gd_info')) {
+    echo 'GD extension is enabled on this server.';
 } else {
-    echo 'Fileinfo extension is not enabled on this server.';
+    echo 'GD extension is not enabled on this server.';
 }
