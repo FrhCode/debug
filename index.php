@@ -1,7 +1,7 @@
 <?php
-// Check if cURL is enabled
-if (function_exists('curl_version')) {
-    echo 'cURL is enabled on this server.';
+// Check if Fileinfo is enabled
+if (function_exists('finfo_open')) {
+    echo 'Fileinfo extension is enabled on this server.';
 } else {
-    echo 'cURL is not enabled on this server.';
+    echo 'Fileinfo extension is not enabled on this server.';
 }
